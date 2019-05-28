@@ -278,7 +278,7 @@ public void positionFrame() {
     }
 
     public void loadData() {
-        File dir = new File("C:\\Users\\Stefanus Kevin\\Documents\\NetBeansProjects\\Mesin_Pencari\\Dokumen");
+        File dir = new File("D:\\Mesin_Pencari\\Dokumen");
         Index.readDirectory(dir);
     }
 
