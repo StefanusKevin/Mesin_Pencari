@@ -179,7 +179,7 @@ public class Search extends javax.swing.JFrame {
     }//GEN-LAST:event_closeButtonActionPerformed
 
     private void Input_MenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Input_MenuItemActionPerformed
-        new Input(this, rootPaneCheckingEnabled).show();
+        new Input(this, rootPaneCheckingEnabled, Index).show();
 //        Input dialog = new Input(this, true, index);
 //        dialog.setVisible(true);
     }//GEN-LAST:event_Input_MenuItemActionPerformed
@@ -200,7 +200,7 @@ public class Search extends javax.swing.JFrame {
         
     }//GEN-LAST:event_ClearButtonActionPerformed
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {
-        new Input(this, rootPaneCheckingEnabled).show();
+        new Input(this, rootPaneCheckingEnabled, Index).show();
     }
 
     public void addDocument() {

@@ -20,7 +20,7 @@ public class Input extends javax.swing.JDialog {
     /**
      * Creates new form Input
      */
-    public Input(java.awt.Frame parent, boolean modal) {
+    public Input(java.awt.Frame parent, boolean modal, InvertedIndex invertedIndex) {
         
         super(parent, modal);
         index = new InvertedIndex();
