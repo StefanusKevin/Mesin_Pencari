@@ -12,7 +12,7 @@ import Model.InvertedIndex;
 
 /**
  *
- * @author yosrio
+ * @author Stefanus Kevin 165314060
  */
 public class Input extends javax.swing.JDialog {
 
@@ -185,9 +185,10 @@ public class Input extends javax.swing.JDialog {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        int id = Integer.parseInt(jTextField1.getText());
+         int id = Integer.parseInt(jTextField1.getText());
         String content = jTextArea1.getText();
         Document doc = new Document(id, content);
+        doc.setTitle(jTextField2.getText());
         index.addNewDocument(doc);
         index.makeDictionaryWithTermNumber();
 //        Search search = new Search();
