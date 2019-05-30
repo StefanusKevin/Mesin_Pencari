@@ -1,0 +1,3 @@
+ Jadwal retensi  adalah jangka waktu penyimpanan dokumen perusahaan yang disusun 
+dalam suatu daftar sesuai dengan jenis dan nilai kegunaannya dan dipakai sebagai 
+pedoman pemusnahan dokumen perusahaan.
